@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 Route::get('/product',[ProductController::class,'viewProductPage']);
 Route::post('/insertOrEditProduct',[ProductController::class,'addOrUpdate']);
+Route::post('/search',[ProductController::class,'search']);
